@@ -1,0 +1,204 @@
+.teacherViewScore{
+  /*padding: 20px 0;*/
+  color: #666666;
+  font-size: 14px;
+}
+.publicPadding{
+  padding: 0 20px;
+}
+.areaSection{
+  border-top: 8px solid #f6f6f6;
+}
+/*返回按钮样式*/
+.teacherViewScore .callBackBtn {
+  border-bottom: 1px solid #ECEDEF;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  position: relative;
+}
+/*试卷名称样式*/
+.teacherViewScore .examMsgWrap{
+  margin-top: 20px;
+}
+.teacherViewScore .examTitle{
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.teacherViewScore .examGardeClass {
+  margin: 20px 0;
+}
+.teacherViewScore .examGardeClass>div{
+  display: inline-block;
+}
+.teacherViewScore .examGardeClass .examClass{
+  margin-left: 45px;
+}
+.teacherViewScore .callBackBtn .el-button--text{
+  color: #666666;
+}
+.teacherViewScore .tableWrap {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 8px;
+}
+.teacherViewScore .tableWrap th {
+  font-weight: 600;
+}
+
+
+/*科目总分样式*/
+.teacherViewScore .subjectScore{  margin-bottom: 20px;  }
+.teacherViewScore .titleWrapStyle { margin: 17px 0;}
+.teacherViewScore .title-icon { display: inline-block; width: 3px; height: 16px; background: #0e9deb; vertical-align: middle;margin-right: 4px;}
+.teacherViewScore .title-text { display: inline-block; font-size: 16px; color: #000; vertical-align: middle; line-height: 24px}
+
+
+.teacherViewScore .countWrap {
+  text-align: right;
+  display: inline-block;
+  vertical-align: bottom;
+}
+.teacherViewScore .headcount {
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+  line-height: 24px;
+}
+/*查看科目总分样式*/
+.teacherViewScore .scoreTable .gradeTable {
+  width: 100%;
+  border: 1px solid #dfe6ec;
+  margin-top: 10px;
+  table-layout: fixed;
+}
+.teacherViewScore .scoreTable .gradeTable tr{
+  border-bottom: 1px solid #dfe6ec;
+  border-right: 1px solid #dfe6ec;
+}
+.teacherViewScore .scoreTable .gradeTable td {
+  border-bottom: 1px solid #dfe6ec;
+  border-right: 1px solid #dfe6ec;
+  padding:  0 15px;
+}
+.teacherViewScore .scoreTable .gradeTable .el-input__inner {
+  width: 100%;
+  padding: 0px;
+}
+
+.teacherViewScore .scoreTable .gradeTable tr:nth-child(1) th{
+  font-weight: 600;
+}
+.teacherViewScore .scoreTable .gradeTable th { box-sizing:border-box;height: 44px; text-align: center; background-color: #effaff; color: #007dc4; border:none; border-left: 1px solid #a5defa; border-top: 1px solid #a5defa;padding: 2px 1px}
+.teacherViewScore .scoreTable .gradeTable td {
+  box-sizing: border-box;
+  height: 44px;
+}
+.teacherViewScore  table .el-input__inner{
+  text-align: center;
+}
+.teacherViewScore .el-input.is-disabled .el-input__inner{
+  background-color: #ffffff;
+  border: none;
+  color: #666666;
+  cursor: inherit;
+}
+
+
+/*查看成绩样式*/
+.teacherViewScore .countWrap {
+  text-align: right;
+}
+.teacherViewScore .headcount {
+  display: inline-block;
+  text-align: center;
+  width: 120px;
+}
+.teacherViewScore .scoreTable .table {
+  width: 100%;
+  border: 1px solid #dfe6ec;
+  margin-top: 10px;
+}
+.teacherViewScore .scoreTable .table tr,.teacherViewScore .scoreTable .table td {
+  text-align: center;
+  border-bottom: 1px solid #dfe6ec;
+  border-right: 1px solid #dfe6ec;
+}
+.teacherViewScore .scoreTable .table tr:nth-child(1) th{
+  font-weight: 600;
+}
+.teacherViewScore .scoreTable .table th { box-sizing:border-box; text-align: center; background-color: #effaff; color: #007dc4; border:none; border-left: 1px solid #a5defa; border-top: 1px solid #a5defa;padding: 2px 1px}
+.teacherViewScore .scoreTable .table td {
+  box-sizing: border-box;
+  height: 30px;
+}
+.teacherViewScore .scoreTable .table td:nth-child(1) {
+  width: 53px;
+}
+.teacherViewScore .scoreTable .table td:nth-child(2) {
+  width: 150px;
+}
+
+
+/*固定表头样式设置*/
+.teacherViewScore .scrollTable .tbodyScroll  {
+  box-sizing: border-box;
+  display:block;
+  height:500px;
+  /*overflow-y:scroll;*/
+  overflow: scroll;
+  overflow-x:hidden
+}
+.teacherViewScore  .scrollTable .theadFixed {
+  display:table;
+  width: calc( 100% - 18px );
+  table-layout:fixed;
+}
+.teacherViewScore .scrollTable .trFixed {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
+.teacherViewScore .scrollTable .tbodyScroll th,.teacherViewScore .scrollTable .tbodyScroll td {
+  overflow: hidden;
+}
+
+.teacherViewScore .scrollTable thead tr:nth-child(1) th:nth-child(1) {
+  width: 5.55%;
+}
+.teacherViewScore .scrollTable thead tr:nth-child(1) th:nth-child(2) {
+  width: 15.55%;
+}
+.teacherViewScore .scrollTable .table .tbodyScroll td:nth-child(1) {
+  width: 5.55%;
+}
+.teacherViewScore .scrollTable .table .tbodyScroll td:nth-child(2) {
+  width: 15.55%;
+}
+/*谷歌浏览器滚动条宽度*/
+.teacherViewScore ::-webkit-scrollbar/*整体部分*/
+{
+  width: 19px;
+}
+/*谷歌浏览器滚动条样式*/
+::-webkit-scrollbar-thumb{
+  /*border-radius: 10px;*/
+  background-color: #A8A8A8;
+  /*box-shadow: inset 0 0 5px #000;*/
+}
+.teacherViewScore .noData{
+  background: url("../../imgs/nodata.png") no-repeat center;
+  margin-top: 50px;
+  height: 233px;
+  margin-bottom: 40px;
+  position: relative;
+}
+
+.teacherViewScore .noData .empty-text{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  bottom:-30px;
+  font-size: 14px;
+  color: #b6b6b6;
+}

@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>育镜测评</title>
+	<style>
+		body,div,img { margin: 0; padding: 0;}
+		body { background: #fafafa;}
+		#logo { margin-bottom: 20px; height: 80px; background: url("http://res.yujingceping.com/res/resources/front/imgs/Logo.png") #fff no-repeat 4% center;}
+		#notice { height: 100%; background: url("resources/front/imgs/500.jpg") #fff no-repeat center;}
+	</style>
+</head>
+<body>
+	<div id="logo"></div>
+	<div id="notice"></div>
+	<script>
+		var docH = document.documentElement.clientHeight || document.body.clientHeight;
+		var notice = document.getElementById('notice');
+
+		notice.style.height = (docH - 100) + 'px';
+	</script>
+</body>
+</html>

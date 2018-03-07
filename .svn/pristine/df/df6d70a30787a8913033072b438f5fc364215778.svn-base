@@ -1,0 +1,214 @@
+/*返回*/
+.addeditinfo .btns{
+  border-bottom: 12px solid whitesmoke;
+  height:34px;
+  padding:8px 20px;
+}
+.addeditinfo .btns a {
+  font-size: 14px;
+  color: #666;
+  cursor:pointer;
+  line-height: 34px;
+}
+.addeditinfo .icon-back:before{
+  position: relative;
+  top:1px;
+}
+.addeditinfo .btns i {
+  margin-right: 5px;
+}
+
+
+/*内容块*/
+.addeditinfo .title {
+  padding: 14px 0 14px 0;
+  height:22px;
+  border-bottom: 1px solid #e6e6e6;
+  margin-bottom: 30px;
+}
+
+.addeditinfo  .title i {
+  display: inline-block;
+  width:22px;
+  height:22px;
+  background: url("../../imgs/baseinfoicon.png");
+}
+.addeditinfo  .title0 i {
+  display: inline-block;
+  width:22px;
+  height:22px;
+  background: url("../../imgs/title0.png");
+}
+.addeditinfo  .title2 i {
+  display: inline-block;
+  width:22px;
+  height:22px;
+  background:  url("../../imgs/familyinfoicon.png");
+}
+.addeditinfo  .title>span {
+  display: inline-block;
+  vertical-align:middle;
+  margin-left: 10px;
+  font-size: 14px;
+  color: #0d9ee9;
+  position:relative;
+  top:-7px;
+}
+/*毕业时间样式*/
+.el-month-table td .cell, .el-year-table td .cell {
+  width: 48px;
+  height: 32px;
+  margin: auto;
+  display: block;
+  line-height: 32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* 查看和编辑页面  显示p  隐藏输入框*/
+/*输入框*/
+.addeditinfo  .edit .el-input{
+  display: none;
+}
+.addeditinfo .edit .item-text{
+  display: none;
+}
+/*下拉框*/
+.addeditinfo .edit .el-select{
+  display: none;
+  /* display: inline-block; */
+}
+/*民族*/
+.addeditinfo .edit .el-autocomplete{
+  display: none;
+}
+/*单选*/
+.addeditinfo .edit  .el-radio-group{
+  display: none;
+}
+/* 编辑状态隐藏p  显示输入框*/
+.addeditinfo .edit.editing p{
+  display: none;
+}
+/*输入框*/
+.addeditinfo .edit.editing .el-input{
+  display: inline-block;
+}
+/*下拉框*/
+.addeditinfo .edit.editing .el-select{
+  display: inline-block;
+}
+/*单选*/
+.addeditinfo .edit.editing .el-radio-group{
+  line-height: 36px;
+  display: block;
+}
+.addeditinfo .edit.editing .item-text{
+  display: block;
+}
+/*民族*/
+.addeditinfo .edit.editing .el-autocomplete{
+  display: block;
+}
+
+
+
+
+
+
+
+/*公共部分*/
+/*内容的单选*/
+.el-radio+.el-radio {
+  margin-left: 100px;
+}
+
+
+.inputWidth{
+  width:652px;
+}
+.addeditinfo .blackDiv{
+  border-bottom: 12px solid whitesmoke;
+  padding:0 30px  20px 30px;
+}
+.addeditinfo .blackDiv1{
+  border-bottom: 12px solid whitesmoke;
+  padding:0 30px  20px 30px;
+}
+.addeditinfo .blackDiv2{
+  padding:0 30px  20px 30px;
+}
+/*  系统自带*/
+.addeditinfo .el-form-item {
+  margin-bottom: 16px;
+}
+.addeditinfo .el-form-item__error {
+  color: #ff4949;
+  font-size: 12px;
+  line-height: 1;
+  position: absolute;
+  top: 90%;
+  left: 0;
+}
+/*.addeditinfo .el-form-item__content{
+  height: 36px;
+}*/
+.addeditinfo .el-form-item__label{
+  color:#333;
+}
+.note .el-form-item__label{
+  padding: 0;
+  height:48px;
+  line-height:20px;
+  width:187px !important;
+}
+.el-textarea__inner {
+  height: 60px;
+  width:652px;
+}
+
+
+/*新增修改电话部分*/
+.Tel_dialog{
+  border-top:4px solid #049be8;
+  position: fixed;
+  width: 420px;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  z-index: 1997;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  border-radius:3px;
+  min-height: 300px;
+  height:30%;
+  transform: translate(-50%, -50%);
+}
+.mask{
+  z-index: 1996;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.el-message{
+  z-index: 9999 !important;
+}
+
+.changephone{
+  text-decoration:underline;
+  color: #0d9ee9;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="SingletonModel.js"></script>
+<script src="UserEvent.js?r=aa"></script>
+<script>
+    var cache = SingletonModel.getInstance();
+    var cache2 = SingletonModel.getInstance();
+
+    cache.userPO('an',33);
+
+//    SingletonModel.user;
+//    cache.person
+    console.log(cache===cache2);
+    SingletonModel.getUser().name
+
+    let userEvent = new UserEvent();
+
+   // alert(UserEvent.getAddEvent())
+
+    userEvent.addEventLister(userHand,UserEvent.getAddEvent());
+    userEvent.addEventLister(userHand2,UserEvent.getAddEvent2());
+
+
+var userPO = {};
+    userPO.name = "anku";
+    userPO.age = 27;
+    userPO.address = "bj"
+    userPO.userEvent =userEvent;
+    userEvent.dispatcheEvent(userPO,UserEvent.getAddEvent());
+    userEvent.dispatcheEvent(userPO,UserEvent.getAddEvent());
+    userEvent.dispatcheEvent("bbb",UserEvent.getAddEvent2());
+    function userHand(userPO){
+        userPO.name
+        console.log(userPO.address);
+        userPO.userEvent .removeEvent(null,UserEvent.getAddEvent())
+
+    }
+    function userHand2(e){
+        console.log(e);
+
+    }
+//    event.on((content) => console.log(`get published content: ${content}`), 'myEvent');
+//    event.emit('jaja', 'myEvent'); //get published content: jaja
+
+//    var bb = new B('annnn','aaaaa');
+//bb.name = "jack";
+//    console.log(bb.name);
+
+
+
+</script>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>页面404</title>
+</head>
+<style>
+    .errorWrap {
+        width: 100%;
+        min-width: 1000px;
+    }
+    .errorWrap .colorBr{
+        width: 100%;
+        height: 20px;
+        background: #fafafa;
+    }
+    .errorHeader {
+        width: 100%;
+        height: 80px;
+        background: url("http://res.yujingceping.com/res/resources/front/imgs/Logo.png") no-repeat top left;
+    }
+    .errorContent {
+        width: 100%;
+        height: 560px;
+        background: url("../../../resources/front/imgs/404error.png") no-repeat 50% 50%;
+    }
+</style>
+<body>
+    <div class="errorWrap">
+        <div class="errorHeader"></div>
+        <p class="colorBr"></p>
+        <div class="errorContent"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,316 @@
+/* 管理员，教育局，学生管理，科目管理，我的班级 */
+.noData{
+  background:#fff url("../../imgs/nodata.png") no-repeat center bottom;
+  padding-top: 60px;
+  height: 233px;
+  margin-bottom: 20px;
+  position: relative;
+}
+.noData .empty-text{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  bottom:-40px;
+  font-size: 14px;
+  color: #b6b6b6;
+}
+.el-table .cell .el-button{
+    font-size: 14px;
+}
+.guide-tips{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    left: 0;
+}
+.isMove .move{
+    position: relative;
+    z-index: 100000;
+    cursor: default;
+    pointer-events:none;
+}
+.guide-tips .content{
+    position: relative;
+}
+.guide-tips .guide-tips-bg{
+    position: absolute;
+
+}
+
+.studentManagement .guide-tips .guide-tips-bg{
+    top: 99px;
+    left: 40px;
+    width: 618px;
+    height: 160px;
+    background: url("../../imgs/stu-mgt-tips.png") no-repeat center bottom;
+}
+.studentManagement .noData{
+  background:#fff url("../../imgs/nodata-stu.png") no-repeat center bottom;
+}
+.managementDialog.el-dialog__wrapper .el-dialog__body{
+  padding-top: 15px;
+  padding-bottom: 0;
+}
+
+.admin .guide-tips-bg{
+    position: absolute;
+    z-index: 999999;
+    top: 14px;
+    left: -190px;
+    width: 201px;
+    height: 119px;
+}
+.admin .tabs .guide-tips-bg-edit,
+.admin .tabs .guide-tips-bg-add{
+    display: none;
+}
+.admin .tabs.isMove .guide-tips-bg-edit,
+.admin .tabs.isMove .guide-tips-bg-add{
+    display: block;
+}
+.admin .tabs.isMove .guide-tips-bg-edit{
+
+    background: url("../../imgs/admin-tips-edit.png") no-repeat center bottom;
+
+}
+.admin .tabs.isMove .guide-tips-bg-add{
+    background: url("../../imgs/admin-tips-add.png") no-repeat center bottom;
+}
+.managementDialog .el-dialog{
+    transform: translate(-50%,-50%);
+}
+.managementDialog.el-dialog__wrapper .el-dialog .el-dialog__header{
+  background-color: #0d9ee9;
+  background-position: 382px 0px;
+}
+.managementDialog.el-dialog__wrapper .el-dialog.el-dialog--small{
+  width: 796px;
+}
+.managementDialog.el-dialog__wrapper .transfer-data-header .el-select{
+  width: 142px;
+}
+.managementDialog .transfer-data{
+  justify-content: space-between;
+}
+.managementDialog .transfer-data .transfer-data-left
+{
+  width: 390px;
+}
+.managementDialog .transfer-data .transfer-data-right{
+  width: 290px;
+}
+
+.managementDialog  .transfer-data .el-table__body-wrapper{
+  height: 230px;
+  overflow-x: hidden;
+}
+.managementDialog .el-dialog__footer .el-button:nth-of-type(1){
+  float: none;
+}
+.managementDialog .el-dialog__footer .el-button:nth-of-type(2){
+  float: none;
+}
+.managementDialog .transfer-data .icon-search.el-input{
+  position: relative;
+}
+.managementDialog .transfer-data .icon-search.el-input:before{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #acacac;
+}
+.managementDialog .transfer-data .icon-search.el-input .el-input__inner{
+  padding-left: 30px;
+}
+.managementDialog .el-dialog__footer{
+  margin-top: 20px;
+}
+.managementDialog .el-table td{
+  height: 46px;
+}
+.managementDialog .el-table th{
+  height: 34px;
+}
+.admin [class^="icon-"],
+.subjectManagement [class^="icon-"],
+.teacherMyClass [class^="icon-"],
+.studentManagement [class^="icon-"]{
+  margin-right: 5px;
+}
+.help{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+  top: 49px;
+  left: 0;
+  transition:all 0.3s;
+}
+
+.help-con{
+  background: url("../../imgs/div-class-stu.png") no-repeat;
+  width: 798px;
+  height: 481px;
+  /* background-size: contain; */
+  /* visibility: hidden;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: all 0.3s;
+  position: relative;
+  z-index: -1; */
+  display: none;
+  position: fixed;
+  top: 39px;
+  left: 0;
+  z-index: 3;
+}
+.help-con.show{
+  display: block;
+}
+.icon-help{
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  background: url("../../imgs/help.png") no-repeat;
+  right: 60px;
+  top: 10px;
+  cursor: pointer;
+}
+.icon-help:hover + .help-con{
+  /* display: block; */
+  /* visibility: visible;
+  opacity: 1;
+  filter: alpha(opacity=100); */
+}
+
+.scoreManagement {
+  background: #f6f6f6;
+}
+.scoreManagement  .scoreManagement-header{
+  background: #fff;
+}
+.scoreManagement  .scoreManagement-header .btns{
+  border-bottom: 1px solid #ECEDEF;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+}
+.scoreManagement  .scoreManagement-header-innner{
+  padding:0 20px;
+}
+.scoreManagement .yearTime .school-year-text{
+  display: block;
+  padding: 20px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.scoreManagement .labelWrap{
+  padding-bottom: 20px;
+}
+.scoreManagement .label-title{
+  display: inline-block;
+  margin-right: 10px;
+}
+.scoreManagement .label-content{
+  display: inline-block;
+  vertical-align: middle;
+}
+.scoreManagement .label-content .el-input{
+  width: 334px;
+}
+.scoreManagement .label-content .el-input .el-input__inner{
+  padding-left: 30px;
+}
+.scoreManagement .label-content .el-input  .el-input__icon{
+  left: 0;
+}
+.scoreManagement .examTypes .el-radio-button{
+  margin-right: 12px;
+}
+.scoreManagement .examTypes .el-radio-button__inner{
+  width: 100px;
+  height: 32px;
+  padding: 0;
+  text-align: center;
+  line-height: 32px;
+  border-radius: 0;
+  border: 1px solid #e6e6e6;
+}
+
+.scoreManagement .el-radio-button__orig-radio:checked+.el-radio-button__inner{
+  background: none;
+  color: #0d9ee9;
+  box-shadow: none;
+  border-color: #0d9ee9;
+}
+.examTypeLists{
+  background: #f6f6f6;
+  /* min-height:615px; */
+}
+.examTypeLists .examTypeList{
+  margin-top: 8px;
+  background: #fff;
+  padding: 0 20px;
+}
+.examTypeLists .examTypeList .examTypeList-title-con {
+  padding: 13px 0;
+  border-bottom: 1px solid #e9edf1;
+}
+.examTypeLists .examTypeList .examTypeList-title{
+
+  padding-left: 12px;
+  font-size: 16px;
+  color: #333;
+  float: left;
+  line-height: 34px;
+  position: relative;
+}
+.examTypeLists .examTypeList .examTypeList-title:after{
+  position: absolute;
+  border-left: 4px solid #0d9ee9;
+  height: 16px;
+  left: 0;
+  top: 9px;
+  content:'';
+
+}
+.examTypeList-tool {
+  float: right;
+}
+.examTypeLists .examTypeList-desc-con{
+  font-size: 14px;
+  padding:31px 0 31px 14px ;
+}
+.examTypeList-desc-list{
+  float: left;
+}
+.examTypeList-desc-list .desc-list{
+  float: left;
+  margin-right: 110px;
+}
+.examTypeList-desc-list .desc-list:last-child{
+  margin-right: 0;
+}
+.examTypeList-operation{
+  width: 250px;
+  float: right;
+}
+.examTypeList-operation li{
+  float: left;
+  margin-right: 40px;
+  color: #0d9ee9;
+  cursor: pointer;
+}
+.examTypeList-operation li:last-child{
+  margin-right: 0;
+}
+.examTypeList-operation li a{
+  color: #0d9ee9;
+}

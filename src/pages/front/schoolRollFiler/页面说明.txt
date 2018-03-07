@@ -1,0 +1,10 @@
+1: 忘记密码---------password.Vue   /
+2: 学校管理---------schoolManagement.Vue/
+3: 班级管理---------classManagement.Vue  /
+7: 班级自动升级-----ClassAutomaticallyUpgrade.Vue
+5: 学生管理---------studentManagement.Vue
+6: 校领导管理-------SchoolleadersManagement.Vue
+7: 教师管理---------teacherManagement.Vue 
+8: 科目管理---------subjectManagement.Vue
+9: 成绩管理---------scoreManagement.Vue
+10:消息通知---------news.vue

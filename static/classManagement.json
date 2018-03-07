@@ -1,0 +1,82 @@
+{
+  "code": "200",
+  "message": "获取成功",
+  "data": [
+    {
+      "gradeCode": "1",
+      "gradeName": "一年级",
+      "classList": [
+        {
+          "classCode": "1",
+          "className": "一班",
+          "banzhurenId": "1",
+          "banzhurenName": "李四李四"
+        },
+        {
+          "classCode": "1",
+          "className": "一班",
+          "banzhurenId": "1",
+          "banzhurenName": "李四"
+        },
+        {
+          "classCode": "1",
+          "className": "一班",
+          "banzhurenId": "1",
+          "banzhurenName": "李四李"
+        }
+      ]
+    },
+    {
+      "gradeCode": "2",
+      "gradeName": "二年级",
+      "classList": [
+        {
+          "classCode": "1",
+          "className": "一班",
+          "banzhurenId": "1",
+          "banzhurenName": "李四李四"
+        },
+        {
+          "classCode": "1",
+          "className": "一班",
+          "banzhurenId": "1",
+          "banzhurenName": "李四"
+        },
+        {
+          "classCode": "1",
+          "className": "一班",
+          "banzhurenId": "1",
+          "banzhurenName": "李四李"
+        }
+      ]
+    },
+    {
+      "gradeCode": "3",
+      "gradeName": "三年级"
+    },
+    {
+      "gradeCode": "4",
+      "gradeName": "四年级"
+    },
+    {
+      "gradeCode": "5",
+      "gradeName": "五年级"
+    },
+    {
+      "gradeCode": "6",
+      "gradeName": "六年级"
+    },
+    {
+      "gradeCode": "4",
+      "gradeName": "四年级"
+    },
+    {
+      "gradeCode": "5",
+      "gradeName": "五年级"
+    },
+    {
+      "gradeCode": "6",
+      "gradeName": "六年级"
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/**
+ * ============================================================================
+ * 1. id和class命名采用该版块的英文单词或组合命名
+ * 2. CSS样式表各区块用注释说明
+ * 3. 尽量使用英文命名原则
+ * 4. 尽量不缩写，除非一看就明白的单词
+ * hack :ie 6 _  \ ie7 *+ \  ie6,ie7 *  \  ie7,firefox !important ie9, \9
+ 火狐： @-moz-document url-prefix() { .bh-box1change { height:528px !important; } }
+*/
+
+/**
+ +------------------------------------------------------------------------------
+ * 网站样式重写
+ +------------------------------------------------------------------------------
+ */
+html{zoom:1;height: auto;}
+html *{outline:0;zoom:1;}
+*{margin: 0;padding: 0;}
+@font-face {
+  font-family:"Microsoft YaHei"!important;
+  src: url(http://res.yujingceping.com/res/resources/front/imgs/Microsoftyahei.ttf);
+}
+body{
+  position:relative;
+  z-index:1;
+  width:100%;
+  font-size:16px;
+  color:#333;
+  font-family:"微软雅黑","Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;
+  background:#fafafa; /*解决电脑设置保护色，网页空白处默认淡绿色问题*/
+  min-width: 1008px;
+  height: auto;
+}
+body,div,dl,dt,dd,ul,ol,li,pre,code,form,input,textarea,select,button,p,blockquote,th,td{margin:0;padding:0;font-family:"微软雅黑","Helvetica Neue", Helvetica, Arial, "Hiragino Sans GB", "Hiragino Sans GB W3", "WenQuanYi Micro Hei", "Microsoft YaHei UI", "Microsoft YaHei", sans-serif;}
+
+table{border-collapse:collapse;border-spacing:0;}
+address,caption,cite,code,dfn,em,th,var{font-style:normal;font-weight:normal;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;margin:0;padding:0;}
+a img{border:0;}
+a{outline:none; text-decoration:none; color:#454545;}
+a:hover{text-decoration:none; color:#454545;}
+ul, ol,li{ list-style:none; }
+caption,th{text-align:left;}
+q:before,q:after{content:'';}/*在<q></q>标签之间的文字两头加上引号(")*/
+.firstletter:first-letter{ font-size:200%;}/*首字母放大2倍*/
+.colwrapper { overflow:hidden; zoom:1 /*for ie*/; margin:5px auto; }/* 高度自适应 */
+.clearBoth{clear: both;}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}
+.clearfix{*height:1%;}
+.hideCss{display: none;}
+
+/* 解决ie下连接加粗的鼠标样式问题*/
+a strong{ cursor:pointer;}
+a.Href:hover{text-decoration:underline;}
+/**
+* 文本通用样式
+**/
+.layout-left{float: left;}
+.layout-right{float: right;}
+.text-left {text-align: left;}
+.text-right {text-align: right;}
+.text-primary {color: #e72d2d;}
+.text-muted {color: #999999;}
+.text-06c {color: #999;}
+.text-06c:hover {color: #20a5d3;}
+.text-disabled,.text-disabled:hover{color: #C6C6C6;cursor:default;}
+.text-bold {font-weight: bold;}
+.hrDashCss{border-top: 1px dashed #333;}
+
+/* 清除浏览器 下拉框自带箭头 */
+.styled-select {
+
+  display: inline;
+  margin: 0 0;
+}
+select {
+  border: solid 1px #000;
+  appearance:none;
+  -moz-appearance:none;
+  -webkit-appearance:none;
+  background: url("http://res.yujingceping.com/res/resources/front/imgs/form_sprite.png") no-repeat 100% 0;
+  padding-right: 14px;
+}
+select::-ms-expand {
+  display: none;
+}
+/* 清除浏览器 数字框自带箭头 */
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button{ -webkit-appearance: none !important; }
+input[type="number"]{-moz-appearance:textfield;}
+input[disabled="disabled"]{
+  background-color: #f9f9f9;
+  color: #b4b4b4;
+  border-color: #e6e6e6;
+}
+/*解决滚动条跳动问题*/
+html {
+  overflow-y: scroll;
+}
+
+:root {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+:root body {
+  position: absolute;
+}
+
+body {
+  width: 100vw;
+  overflow: hidden;
+}

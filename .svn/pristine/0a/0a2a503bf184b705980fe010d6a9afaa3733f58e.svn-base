@@ -1,0 +1,256 @@
+/*返回部分*/
+
+.ev-page-return {
+    height: 50px;
+    line-height: 50px;
+    margin: 0 20px;
+    border-bottom: 1px solid #f6f6f6;
+    font-size: 14px;
+}
+
+.ev-page-return>a {
+    font-size: 14px;
+    color: #666666;
+}
+
+
+/*导入面板*/
+
+.ev-report-page-panel {
+    min-height: 746px;
+    padding: 20px;
+}
+
+.ev-report-page-panel>.el-tabs .el-tabs__nav {
+    border-left: 1px solid #cedaea;
+}
+
+.ev-report-page-panel>.el-tabs>.el-tabs__header {
+    /* background: #f6f6f6; */
+    margin: 0 0;
+}
+
+.el-tabs__content {
+    border: 1px solid #cedaea;
+    border-top: none;
+}
+
+.ev-report-page-panel>.el-tabs>.el-tabs__header .el-tabs__item {
+    width: 179px;
+    border-top: 1px solid #cedaea;
+    border-left: 0;
+    border-right: 1px solid #cedaea;
+    border-bottom: 1px solid #cedaea;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    color: #666;
+    text-align: center;
+}
+
+.ev-report-page-panel>.el-tabs>.el-tabs__header .el-tabs__active-bar {
+    position: absolute;
+    top: 0;
+}
+
+.ev-report-page-panel>.el-tabs>.el-tabs__header .el-tabs__item.is-active {
+    border-left: 0;
+    border-bottom: 1px solid #fff;
+    color: #0d9ee9;
+}
+
+.ev-report-page-panel .el-tab-pane {
+    padding: 0 20px;
+    margin-bottom: 50px;
+}
+
+.ev-report-page-panel .el-tab-pane h3 {
+    background: #f9f9f9;
+    height: 38px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #333333;
+    margin: 30px 0;
+}
+
+.ev-report-page-panel h3 i {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px;
+    color: #FFF;
+}
+
+.ev-report-page-panel .el-tab-pane h3:nth-of-type(1) i {
+    background-color: #1ec56b;
+}
+
+.ev-report-page-panel .el-tab-pane h3:nth-of-type(2) i {
+    background-color: #ff773b;
+}
+
+.ev-report-page-panel .el-tab-pane h3:nth-of-type(3) i {
+    background-color: #0d9ee9;
+}
+
+.ev-report-page-panel .el-tab-pane li:nth-of-type(1) h3 i {
+    background-color: #1ec56b;
+}
+
+.ev-report-page-panel .el-tab-pane li:nth-of-type(2) h3 i {
+    background-color: #ff773b;
+}
+
+.ev-report-page-panel .el-tab-pane li:nth-of-type(3) h3 i {
+    background-color: #0d9ee9;
+}
+
+.ev-report-page-panel .el-tab-pane p {
+    /*height: 34px;*/
+    line-height: 34px;
+    font-size: 14px;
+    color: #666666;
+    margin-left: 40px;
+}
+
+.ev-report-page-panel .el-tab-pane p.son-remark {
+    /*height: 26px;*/
+    line-height: 26px;
+    font-size: 14px;
+    color: #666666;
+}
+
+.ev-report-page-panel .el-tab-pane .son-remark.level-remark {
+    margin-left: 60px;
+}
+
+.ev-report-page-panel .el-tab-pane p>a {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.ev-report-page-panel .el-tab-pane p>a>button.download {
+    padding: 9px 0;
+    text-align: center;
+    min-width: 90px;
+    width: auto;
+}
+
+.ev-report-page-panel .el-tab-pane .upload-demo {
+    width: 420px;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.ev-report-page-panel .el-tab-pane .el-form-item {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+
+.ev-report-page-panel .el-tab-pane .el-form-item__content {
+    position: relative;
+    font-size: 14px;
+    line-height: 34px;
+}
+
+.ev-report-page-panel .el-tab-pane .el-form-item__content input[type="text"] {
+    width: 308px;
+    padding: 0 10px;
+    border: 1px solid #e6e6e6;
+    color: #1f2d3d;
+    margin: 0;
+    height: 32px;
+    line-height: 32px;
+}
+
+.ev-report-page-panel .el-tab-pane .el-form-item__content .el-select input[type="text"] {
+    width: 297px;
+    border: 1px solid #e6e6e6;
+    color: #1f2d3d;
+    margin: 0;
+    height: 32px;
+    line-height: 32px;
+}
+
+.ev-report-page-panel .el-tab-pane .el-form-item__content input.select-btn {
+    width: 89px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    height: 34px;
+    color: #0d9ee9;
+    margin: 0;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: -5px;
+    font-size: 14px;
+}
+
+.ev-report-page-panel .el-tab-pane .submit {
+    height: 34px;
+    border: none;
+    background: #1ec56b;
+    display: inline-block;
+    vertical-align: bottom;
+    text-align: center;
+    min-width: 90px;
+    width: auto;
+    margin-left: 10px;
+    padding: 0 0;
+    font: 14px 'Microsoft YaHei';
+}
+
+.ev-report-page-panel .el-tab-pane .submit:hover {
+    background: #48e791;
+}
+
+.ev-report-page-panel .el-tab-pane div.report-remark {
+    color: #666666;
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+}
+
+.ev-report-page-panel .el-tab-pane img {
+    display: block;
+    margin: 0 auto;
+}
+
+.xiazaimoban {
+    height: 117px;
+}
+
+.file-box {
+    clear: both;
+}
+
+
+/*上传按钮*/
+
+.LabBtn {
+    display: inline-block;
+    line-height: 1;
+    white-space: nowrap;
+    cursor: pointer;
+    border: 1px solid #50bfff;
+    -webkit-appearance: none;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    padding: 9px 8px;
+    font-size: 14px;
+    border-radius: 2px;
+    color: #fff;
+    background-color: #50bfff;
+}
